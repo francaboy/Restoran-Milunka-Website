@@ -1160,70 +1160,64 @@ function Index() {
                       <div className="w-50percent flex flex-col pr-45 sm:w-full module-col-first">
                         <div className="ld-fancy-heading">
                           <h3 className="ld-fh-element mb-1/35em text-14 uppercase font-semibold tracking-0/5 text-green-700">
-                            Sarma Milunka
+                            Carpaccio
                           </h3>
                         </div>
                         <div className="ld-fancy-heading">
                           <p className="ld-fh-element mb-4em text-16 leading-1/25em">
-                            Kiseli kupus punjen miješanim mesom, pirjan u gustom
-                            saftu.
+                            Blago pečen juneći file s dresingom od bibera.
                           </p>
                         </div>
                         <div className="ld-fancy-heading">
                           <h3 className="ld-fh-element mb-1/35em text-14 uppercase font-semibold tracking-0/5 text-green-700">
-                            Sarma Milunka
+                            Ravioli
                           </h3>
                         </div>
                         <div className="ld-fancy-heading">
                           <p className="ld-fh-element mb-4em text-16 leading-1/25em">
-                            Kiseli kupus punjen miješanim mesom, pirjan u gustom
-                            saftu.
+                            Ravioli s pistacijama i sirom u mliječnom umaku.
                           </p>
                         </div>
                         <div className="ld-fancy-heading">
                           <h3 className="ld-fh-element mb-1/35em text-14 uppercase font-semibold tracking-0/5 text-green-700">
-                            Sarma Milunka
+                            Obrazi
                           </h3>
                         </div>
                         <div className="ld-fancy-heading">
                           <p className="ld-fh-element mb-4em text-16 leading-1/25em">
-                            Kiseli kupus punjen miješanim mesom, pirjan u gustom
-                            saftu.
+                            Juneći obrazi s pireom i umakom od čaja i kamilice.
                           </p>
                         </div>
                       </div>
                       <div className="w-50percent flex flex-col pr-10 pl-35 sm:w-full module-col-last">
                         <div className="ld-fancy-heading">
                           <h3 className="ld-fh-element mb-1/35em text-14 uppercase font-semibold tracking-0/5 text-green-700">
-                            Sarma Milunka
+                            Rižoto teletina
                           </h3>
                         </div>
                         <div className="ld-fancy-heading">
                           <p className="ld-fh-element mb-4em text-16 leading-1/25em">
-                            Kiseli kupus punjen miješanim mesom, pirjan u gustom
-                            saftu.
+                            Rižoto s teletinom i sladoledom od Grana Padana.
                           </p>
                         </div>
                         <div className="ld-fancy-heading">
                           <h3 className="ld-fh-element mb-1/35em text-14 uppercase font-semibold tracking-0/5 text-green-700">
-                            Sarma Milunka
+                            Sabljarka
                           </h3>
                         </div>
                         <div className="ld-fancy-heading">
                           <p className="ld-fh-element mb-4em text-16 leading-1/25em">
-                            Kiseli kupus punjen miješanim mesom, pirjan u gustom
-                            saftu.
+                            Grilovana sabljarka s povrtnim rižotom i limun majonezom.
                           </p>
                         </div>
                         <div className="ld-fancy-heading">
                           <h3 className="ld-fh-element mb-1/35em text-14 uppercase font-semibold tracking-0/5 text-green-700">
-                            Sarma Milunka
+                            Natalija
                           </h3>
                         </div>
                         <div className="ld-fancy-heading">
                           <p className="ld-fh-element mb-4em text-16 leading-1/25em">
-                            Kiseli kupus punjen miješanim mesom, pirjan u gustom
-                            saftu.
+                            Biskvit s lavandom, bosiljkom, vanilijom i bijelom čokoladom.
                           </p>
                         </div>
                       </div>
@@ -1256,14 +1250,14 @@ function Index() {
                                 </svg>
                               </span>
                               <span className="icon-list-icon text-17 pl-5">
-                                Milunkina čarolija
+                                Tatarski biftek
                               </span>
                             </li>
                           </ul>
                         </div>
                         <div className="w-25percent flex justify-end p-10">
                           <div className="ld-fancy-heading text-end">
-                            <p className="ld-fh-element m-0">18.50KM</p>
+                            <p className="ld-fh-element m-0">28</p>
                           </div>
                         </div>
                         <div className="w-75percent flex justify-start p-10">
@@ -1280,14 +1274,14 @@ function Index() {
                                 </svg>
                               </span>
                               <span className="icon-list-icon text-17 pl-5">
-                                Milunkina čarolija
+                                Carpaccio
                               </span>
                             </li>
                           </ul>
                         </div>
                         <div className="w-25percent flex justify-end p-10">
                           <div className="ld-fancy-heading text-end">
-                            <p className="ld-fh-element m-0">18.50KM</p>
+                            <p className="ld-fh-element m-0">25</p>
                           </div>
                         </div>
                         <div className="w-75percent flex justify-start p-10">
@@ -1304,14 +1298,14 @@ function Index() {
                                 </svg>
                               </span>
                               <span className="icon-list-icon text-17 pl-5">
-                                Milunkina čarolija
+                                Carpaccio od ribe
                               </span>
                             </li>
                           </ul>
                         </div>
                         <div className="w-25percent flex justify-end p-10">
                           <div className="ld-fancy-heading text-end">
-                            <p className="ld-fh-element m-0">18.50KM</p>
+                            <p className="ld-fh-element m-0">22</p>
                           </div>
                         </div>
                         <div className="w-75percent flex justify-start p-10">
@@ -1328,40 +1322,17 @@ function Index() {
                                 </svg>
                               </span>
                               <span className="icon-list-icon text-17 pl-5">
-                                Milunkina čarolija
+                               Burata
                               </span>
                             </li>
                           </ul>
                         </div>
                         <div className="w-25percent flex justify-end p-10">
                           <div className="ld-fancy-heading text-end">
-                            <p className="ld-fh-element m-0">18.50KM</p>
+                            <p className="ld-fh-element m-0">19</p>
                           </div>
                         </div>
-                        <div className="w-75percent flex justify-start p-10">
-                          <ul className="icon-list-items reset-ul flex">
-                            <li className="icon-list-item flex items-center">
-                              <span className="icon-list-icon flex">
-                                <svg
-                                  className="w-5 h-5 relative"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 512 512"
-                                  fill="#000"
-                                >
-                                  <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
-                                </svg>
-                              </span>
-                              <span className="icon-list-icon text-17 pl-5">
-                                Milunkina čarolija
-                              </span>
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="w-25percent flex justify-end p-10">
-                          <div className="ld-fancy-heading text-end">
-                            <p className="ld-fh-element m-0">18.50KM</p>
-                          </div>
-                        </div>
+                       
                       </div>
                     </div>
                     <div
@@ -1384,14 +1355,14 @@ function Index() {
                                 </svg>
                               </span>
                               <span className="icon-list-icon text-17 pl-5">
-                                Milunkina čarolija
+                               Biftek Milunka
                               </span>
                             </li>
                           </ul>
                         </div>
                         <div className="w-25percent flex justify-end p-10">
                           <div className="ld-fancy-heading text-end">
-                            <p className="ld-fh-element m-0">18.50KM</p>
+                            <p className="ld-fh-element m-0">55</p>
                           </div>
                         </div>
                         <div className="w-75percent flex justify-start p-10">
@@ -1408,14 +1379,14 @@ function Index() {
                                 </svg>
                               </span>
                               <span className="icon-list-icon text-17 pl-5">
-                                Milunkina čarolija
+                                Obrazi
                               </span>
                             </li>
                           </ul>
                         </div>
                         <div className="w-25percent flex justify-end p-10">
                           <div className="ld-fancy-heading text-end">
-                            <p className="ld-fh-element m-0">18.50KM</p>
+                            <p className="ld-fh-element m-0">36</p>
                           </div>
                         </div>
                         <div className="w-75percent flex justify-start p-10">
@@ -1432,14 +1403,14 @@ function Index() {
                                 </svg>
                               </span>
                               <span className="icon-list-icon text-17 pl-5">
-                                Milunkina čarolija
+                                Juneći rep
                               </span>
                             </li>
                           </ul>
                         </div>
                         <div className="w-25percent flex justify-end p-10">
                           <div className="ld-fancy-heading text-end">
-                            <p className="ld-fh-element m-0">18.50KM</p>
+                            <p className="ld-fh-element m-0">33</p>
                           </div>
                         </div>
                         <div className="w-75percent flex justify-start p-10">
@@ -1456,14 +1427,14 @@ function Index() {
                                 </svg>
                               </span>
                               <span className="icon-list-icon text-17 pl-5">
-                                Milunkina čarolija
+                                Pileći kolač
                               </span>
                             </li>
                           </ul>
                         </div>
                         <div className="w-25percent flex justify-end p-10">
                           <div className="ld-fancy-heading text-end">
-                            <p className="ld-fh-element m-0">18.50KM</p>
+                            <p className="ld-fh-element m-0">29</p>
                           </div>
                         </div>
                         <div className="w-75percent flex justify-start p-10">
@@ -1480,14 +1451,14 @@ function Index() {
                                 </svg>
                               </span>
                               <span className="icon-list-icon text-17 pl-5">
-                                Milunkina čarolija
+                                Svinjska bajadera
                               </span>
                             </li>
                           </ul>
                         </div>
                         <div className="w-25percent flex justify-end p-10">
                           <div className="ld-fancy-heading text-end">
-                            <p className="ld-fh-element m-0">18.50KM</p>
+                            <p className="ld-fh-element m-0">36</p>
                           </div>
                         </div>
                       </div>
@@ -1512,14 +1483,14 @@ function Index() {
                                 </svg>
                               </span>
                               <span className="icon-list-icon text-17 pl-5">
-                                Milunkina čarolija
+                                Sjećanja
                               </span>
                             </li>
                           </ul>
                         </div>
                         <div className="w-25percent flex justify-end p-10">
                           <div className="ld-fancy-heading text-end">
-                            <p className="ld-fh-element m-0">18.50KM</p>
+                            <p className="ld-fh-element m-0">13</p>
                           </div>
                         </div>
                         <div className="w-75percent flex justify-start p-10">
@@ -1536,14 +1507,14 @@ function Index() {
                                 </svg>
                               </span>
                               <span className="icon-list-icon text-17 pl-5">
-                                Milunkina čarolija
+                                Anna
                               </span>
                             </li>
                           </ul>
                         </div>
                         <div className="w-25percent flex justify-end p-10">
                           <div className="ld-fancy-heading text-end">
-                            <p className="ld-fh-element m-0">18.50KM</p>
+                            <p className="ld-fh-element m-0">9</p>
                           </div>
                         </div>
                         <div className="w-75percent flex justify-start p-10">
@@ -1560,14 +1531,14 @@ function Index() {
                                 </svg>
                               </span>
                               <span className="icon-list-icon text-17 pl-5">
-                                Milunkina čarolija
+                                Sofija
                               </span>
                             </li>
                           </ul>
                         </div>
                         <div className="w-25percent flex justify-end p-10">
                           <div className="ld-fancy-heading text-end">
-                            <p className="ld-fh-element m-0">18.50KM</p>
+                            <p className="ld-fh-element m-0">9</p>
                           </div>
                         </div>
                         <div className="w-75percent flex justify-start p-10">
@@ -1584,40 +1555,17 @@ function Index() {
                                 </svg>
                               </span>
                               <span className="icon-list-icon text-17 pl-5">
-                                Milunkina čarolija
+                                Natalija
                               </span>
                             </li>
                           </ul>
                         </div>
                         <div className="w-25percent flex justify-end p-10">
                           <div className="ld-fancy-heading text-end">
-                            <p className="ld-fh-element m-0">18.50KM</p>
+                            <p className="ld-fh-element m-0">7</p>
                           </div>
                         </div>
-                        <div className="w-75percent flex justify-start p-10">
-                          <ul className="icon-list-items reset-ul flex">
-                            <li className="icon-list-item flex items-center">
-                              <span className="icon-list-icon flex">
-                                <svg
-                                  className="w-5 h-5 relative"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 512 512"
-                                  fill="#000"
-                                >
-                                  <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
-                                </svg>
-                              </span>
-                              <span className="icon-list-icon text-17 pl-5">
-                                Milunkina čarolija
-                              </span>
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="w-25percent flex justify-end p-10">
-                          <div className="ld-fancy-heading text-end">
-                            <p className="ld-fh-element m-0">18.50KM</p>
-                          </div>
-                        </div>
+                       
                       </div>
                     </div>
                   </div>
@@ -2273,7 +2221,7 @@ function Index() {
                     </div>
                     <div className="ld-fancy-heading">
                       <p className="ld-fh-element m-0 text-14 leading-18">
-                        info@milunka.com
+                        milunkagastroatelje <br />@gmail.com
                       </p>
                     </div>
                   </div>
@@ -2294,7 +2242,7 @@ function Index() {
                     </div>
                     <div className="ld-fancy-heading">
                       <p className="ld-fh-element m-0 text-14 leading-18">
-                        063/905-923
+                        065/246-666
                       </p>
                     </div>
                   </div>
@@ -2418,7 +2366,7 @@ function Index() {
                         </div>
                         <div className="ld-fancy-heading relative">
                           <p className="ld-fh-element relative mb-0/5em text-16 font-bold leading-1/2em text-black">
-                            063/905-923
+                            065/246-666
                           </p>
                         </div>
                       </div>
@@ -2667,7 +2615,7 @@ function Index() {
         >
           <div className="lity-wrap" data-lity-close="" role="document">
             <div className="lity-loader" aria-hidden="true">
-              Loading...
+              Učitavanje...
             </div>
             <div className="lity-container">
               <div className="lity-content" />
