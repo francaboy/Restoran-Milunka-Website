@@ -83,10 +83,10 @@
 }
 
 .module-btn-px {
-  --btn-pt: 23px;
-  --btn-pe: 65px;
-  --btn-pb: 23px;
-  --btn-ps: 65px;
+  --btn-pt: 13px;
+  --btn-pe: 25px;
+  --btn-pb: 13px;
+  --btn-ps: 25px;
 }
 
 /* ***** Main Header ***** */
@@ -200,7 +200,7 @@
 
 @media (max-width: 767px) {
   .banner .ld-fancy-heading h1 {
-    font-size: 18vw;
+    font-size: 14vw;
   }
 }
 

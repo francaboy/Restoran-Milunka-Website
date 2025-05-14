@@ -402,8 +402,7 @@ function Index() {
                           data-split-options='{"type": "words"}'
                         >
                           {" "}
-                          Okusi prošlost, doživi sadašnjost, rezervišite svoje
-                          mjesto.
+                          Moderna kuhinja u srcu Banjaluke
                         </h6>
                       </div>
                       <div className="ld-fancy-heading">
@@ -413,7 +412,7 @@ function Index() {
                           data-split-options='{"type": "words"}'
                         >
                           {" "}
-                          Gdje Tradicija Postaje Legenda - Milunka.
+                          Gastro Atelje Milunka
                         </h1>
                       </div>
                       <a
@@ -1207,7 +1206,8 @@ function Index() {
                         </div>
                         <div className="ld-fancy-heading">
                           <p className="ld-fh-element mb-4em text-16 leading-1/25em">
-                            Grilovana sabljarka s povrtnim rižotom i limun majonezom.
+                            Grilovana sabljarka s povrtnim rižotom i limun
+                            majonezom.
                           </p>
                         </div>
                         <div className="ld-fancy-heading">
@@ -1217,7 +1217,8 @@ function Index() {
                         </div>
                         <div className="ld-fancy-heading">
                           <p className="ld-fh-element mb-4em text-16 leading-1/25em">
-                            Biskvit s lavandom, bosiljkom, vanilijom i bijelom čokoladom.
+                            Biskvit s lavandom, bosiljkom, vanilijom i bijelom
+                            čokoladom.
                           </p>
                         </div>
                       </div>
@@ -1322,7 +1323,7 @@ function Index() {
                                 </svg>
                               </span>
                               <span className="icon-list-icon text-17 pl-5">
-                               Burata
+                                Burata
                               </span>
                             </li>
                           </ul>
@@ -1332,7 +1333,6 @@ function Index() {
                             <p className="ld-fh-element m-0">19</p>
                           </div>
                         </div>
-                       
                       </div>
                     </div>
                     <div
@@ -1355,7 +1355,7 @@ function Index() {
                                 </svg>
                               </span>
                               <span className="icon-list-icon text-17 pl-5">
-                               Biftek Milunka
+                                Biftek Milunka
                               </span>
                             </li>
                           </ul>
@@ -1565,7 +1565,6 @@ function Index() {
                             <p className="ld-fh-element m-0">7</p>
                           </div>
                         </div>
-                       
                       </div>
                     </div>
                   </div>
@@ -1831,7 +1830,7 @@ function Index() {
                         />
                         <div className="ld-fancy-heading relative">
                           <p className="ld-fh-element m-0 text-11 text-white font-semibold uppercase tracking-2">
-                            Telefon: 063/905-923
+                            Telefon: 065/246-666
                           </p>
                         </div>
                         <div className="ld-fancy-heading relative">
@@ -1867,7 +1866,7 @@ function Index() {
                     >
                       <div className="ld-fancy-heading border-top border-bottom border-black mb-35">
                         <h3 className="ld-fh-element py-1/5em m-0 text-13 font-medium uppercase tracking-1">
-                          Kontaktirajte Nas.
+                          Kontaktirajte nas – Rezervacije u restoranu Milunka
                         </h3>
                       </div>
                       <div className="ld-fancy-heading">
@@ -1877,7 +1876,8 @@ function Index() {
                       </div>
                       <div className="ld-fancy-heading px-20percent sm:p-0">
                         <p className="ld-fh-element mb-0/5em text-17 leading-1/5em text-black-40">
-                          Pišite nam – tu smo da vam odgovorimo.
+                          Posjetite nas i rezervišite svoje mjesto za doživljaj
+                          ukusa.
                         </p>
                       </div>
                       <div className="lqd-contact-form lqd-contact-form-inputs-underlined lqd-contact-form-button-block lqd-contact-form-button-md lqd-contact-form-button-border-none lqd-contact-form-inputs-lg mb-30 animation-element">
@@ -1890,7 +1890,7 @@ function Index() {
                             />
                           </div>
                           <form
-                            action="./assets/php/mailer.php"
+                            action="#contactmodal"
                             method="post"
                             className="lqd-cf-form"
                             noValidate="novalidate"
@@ -2221,7 +2221,8 @@ function Index() {
                     </div>
                     <div className="ld-fancy-heading">
                       <p className="ld-fh-element m-0 text-14 leading-18">
-                        milunkagastroatelje <br />@gmail.com
+                        milunkagastroatelje <br />
+                        @gmail.com
                       </p>
                     </div>
                   </div>
