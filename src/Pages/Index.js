@@ -694,7 +694,7 @@ function Index() {
                       <div className="w-full sticky flex flex-wrap flex-col items-start top-110 transition-all p-10">
                         <div className="ld-fancy-heading w-auto mb-20 border-1 border-black rounded-4 animation-element">
                           <h6 className="ld-fh-element text-black my-0/25em mx-1/5em">
-                            Gastro Atelje Milunka
+                            Restoran Milunka – Više od gastronomije
                           </h6>
                         </div>
                         <div className="ld-fancy-heading animation-element">
@@ -702,11 +702,8 @@ function Index() {
                         </div>
                         <div className="ld-fancy-heading animation-element">
                           <p className="ld-fh-element pr-10percent mb-1/5em text-16 leading-1/4em">
-                            Restoran Milunka spaja tradiciju i modernost.
-                            Uživajte u domaćim jelima, pripremljenim s ljubavlju
-                            po starinskim receptima, u elegantnom ambijentu koji
-                            odiše toplinom, gostoprimstvom i vrhunskim ukusima
-                            za sva čula.
+                            Inspirisani lokalnim nasljeđem i savremenim tehnikama kuvanja, naš tim donosi jela koja balansiraju između poznatog i neočekivanog. U fokusu su male serije, lokalni proizvođači, sezonske namirnice i posvećenost detaljima. Iza svega stoji chef Saša Stanivuković, čija je misija jasna: vratiti autentičnost ukusu i kuhinji koju pamtimo.
+
                           </p>
                         </div>
                         <a
@@ -790,7 +787,7 @@ function Index() {
                         data-parallax-to='{"y": "-49px"}'
                       >
                         <div className="ld-fancy-heading animation-element">
-                          <p className="ld-fh-element mb-0/5em text-vertical vertical-medium text-12 text-secondary font-semibold uppercase tracking-2 sm:text-horizontal">
+                          <p className="ld-fh-element ml-2em mb-0/5em text-vertical vertical-medium text-12 text-secondary font-semibold uppercase tracking-2 sm:text-horizontal">
                             Gastro atelje Milunka
                           </p>
                         </div>
@@ -856,8 +853,8 @@ function Index() {
                             Tradicija.
                           </h3>
                           <p>
-                            Domaća jela pripremljena po starinskim receptima
-                            baka.
+                            Domaća jela pripremljena na moderan način.
+                            
                           </p>
                         </div>
                       </div>
@@ -1781,6 +1778,8 @@ function Index() {
                       <div className="ld-fancy-heading">
                         <p className="ld-fh-element mb-0/5em text-15 text-white">
                           <span>
+                            Dinamičan meni koji se mijenja u ritmu sezone.
+Naš jelovnik reflektuje bogatstvo lokalnih sastojaka i slobodu kreativne interpretacije. Očekujte domaće, ali u novom ruhu.
                             Otkrijte magiju naših kulinarskih kreacija kroz
                             objektiv – posjetite našu{" "}
                           </span>
