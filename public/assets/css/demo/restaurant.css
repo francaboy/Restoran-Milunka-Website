@@ -94,6 +94,9 @@
   --lqd-container-width: 1170px;
 }
 
+.lqd-preloader-wrap {
+  display: none !important;
+}
 .main-header .nav-trigger.is-active {
   color: #ffffff;
 }
