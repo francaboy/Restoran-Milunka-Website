@@ -234,7 +234,7 @@ function Index() {
                                       <li className="inline-flex relative w-auto items-center">
                                         <a
                                           className="text-white text-16"
-                                          href="tel:+38763905923"
+                                          href="tel:+38765246666"
                                         >
                                           <span className="link-icon left-icon icon-next-to-label" />
                                           Wa.
@@ -702,8 +702,13 @@ function Index() {
                         </div>
                         <div className="ld-fancy-heading animation-element">
                           <p className="ld-fh-element pr-10percent mb-1/5em text-16 leading-1/4em">
-                            Inspirisani lokalnim nasljeđem i savremenim tehnikama kuvanja, naš tim donosi jela koja balansiraju između poznatog i neočekivanog. U fokusu su male serije, lokalni proizvođači, sezonske namirnice i posvećenost detaljima. Iza svega stoji chef Saša Stanivuković, čija je misija jasna: vratiti autentičnost ukusu i kuhinji koju pamtimo.
-
+                            Inspirisani lokalnim nasljeđem i savremenim
+                            tehnikama kuvanja, naš tim donosi jela koja
+                            balansiraju između poznatog i neočekivanog. U fokusu
+                            su male serije, lokalni proizvođači, sezonske
+                            namirnice i posvećenost detaljima. Iza svega stoji
+                            chef Saša Stanivuković, čija je misija jasna:
+                            vratiti autentičnost ukusu i kuhinji koju pamtimo.
                           </p>
                         </div>
                         <a
@@ -850,12 +855,9 @@ function Index() {
                         </div>
                         <div className="contents relative z-2">
                           <h3 className="lq-icon-box-el text-16 font-semibold uppercase tracking-0/5 mb-1/25em leading-1/5em">
-                            Tradicija.
+                            Autentičnost s dušom.
                           </h3>
-                          <p>
-                            Domaća jela pripremljena na moderan način.
-                            
-                          </p>
+                          <p>Domaća tradicija, ispričana na savremen način.</p>
                         </div>
                       </div>
                     </div>
@@ -903,11 +905,9 @@ function Index() {
                         </div>
                         <div className="contents relative z-2">
                           <h3 className="lq-icon-box-el text-16 font-semibold uppercase tracking-0/5 mb-1/25em leading-1/5em">
-                            Gostoprimstvo.
+                            Srdačnost koja se pamti.
                           </h3>
-                          <p>
-                            Topla dobrodošlica i osjećaj kao kod kuće svima.
-                          </p>
+                          <p>Gostoprimstvo koje nije naučeno, već urođeno.</p>
                         </div>
                       </div>
                     </div>
@@ -948,11 +948,9 @@ function Index() {
                         </div>
                         <div className="contents relative z-2">
                           <h3 className="lq-icon-box-el text-16 font-semibold uppercase tracking-0/5 mb-1/25em leading-1/5em">
-                            Kvalitet.
+                            Namirnice koje pričaju.
                           </h3>
-                          <p>
-                            Svježi sastojci birani s pažnjom za svaki obrok.
-                          </p>
+                          <p>Birano s pažnjom, pripremljeno s ljubavlju.</p>
                         </div>
                       </div>
                     </div>
@@ -1010,11 +1008,9 @@ function Index() {
                         </div>
                         <div className="contents relative z-2">
                           <h3 className="lq-icon-box-el text-16 font-semibold uppercase tracking-0/5 mb-1/25em leading-1/5em">
-                            Ambijent.
+                            Prostor sa karakterom.
                           </h3>
-                          <p>
-                            Ugodan prostor sa dušom za nezaboravne trenutke.
-                          </p>
+                          <p>Savremeni dizajn u domaćem tonu.</p>
                         </div>
                       </div>
                     </div>
@@ -1055,7 +1051,7 @@ function Index() {
                           data-split-options='{"type": "words"}'
                         >
                           {" "}
-                          Uživajte u našim trenucima
+                          Pogledajte kako živimo gastronomiju.
                         </h6>
                       </div>
                       <div className="ld-fancy-heading">
@@ -1065,7 +1061,7 @@ function Index() {
                           data-split-options='{"type": "words"}'
                         >
                           {" "}
-                          Pogledajte priču Milunke
+                          Upoznajte Milunku.
                         </h2>
                       </div>
                       <a
@@ -1586,12 +1582,12 @@ function Index() {
                     >
                       <div className="ld-fancy-heading">
                         <h6 className="ld-fh-element mb-1/25em text-12 tracking-2 text-white">
-                          Milunka | Gastro Atelje
+                          Milunka | Ukus s potpisom
                         </h6>
                       </div>
                       <div className="ld-fancy-heading">
                         <h2 className="ld-fh-element mb-1em text-white">
-                          Galerija.
+                          Doživite kroz fotografije.
                         </h2>
                       </div>
                       <div
@@ -1778,10 +1774,11 @@ function Index() {
                       <div className="ld-fancy-heading">
                         <p className="ld-fh-element mb-0/5em text-15 text-white">
                           <span>
-                            Dinamičan meni koji se mijenja u ritmu sezone.
-Naš jelovnik reflektuje bogatstvo lokalnih sastojaka i slobodu kreativne interpretacije. Očekujte domaće, ali u novom ruhu.
-                            Otkrijte magiju naših kulinarskih kreacija kroz
-                            objektiv – posjetite našu{" "}
+                            Dinamičan meni koji se mijenja u ritmu sezone. Naš
+                            jelovnik reflektuje bogatstvo lokalnih sastojaka i
+                            slobodu kreativne interpretacije. Očekujte domaće,
+                            ali u novom ruhu. Otkrijte magiju naših kulinarskih
+                            kreacija kroz objektiv – posjetite našu{" "}
                           </span>
                           <a
                             className="text-primary underline text-primary"
@@ -1805,10 +1802,10 @@ Naš jelovnik reflektuje bogatstvo lokalnih sastojaka i slobodu kreativne interp
                 className="lqd-section reserve-form pt-55 pb-50 transition-all bg-no-repeat"
                 style={{
                   backgroundImage:
-                    "url(./assets/images/demo/restaurant/form-reserve/bg-5.png)",
+                    "url(./assets/images/da/restaurant/form-reserve/bg-5.png)",
                 }}
                 data-custom-animations="true"
-                data-ca-options='{"addPerspective": false, "animationTarget": ".animation-element", "initValues" :{"x": "-5px", "y": "10px", "opacity" : 0} , "animations" :{"x": "0px", "y": "0px", "opacity" : 1}}'
+                data-ca-options='{"addPerspective": false, "animationTarget": ".animation-element", "initValues": {"x": "-5px", "y": "10px", "opacity": 0}, "animations": {"x": "0px", "y": "0px", "opacity": 1}}'
               >
                 <div className="container flex items-center justify-center p-0">
                   <div className="w-full flex flex-wrap rounded-10 bg-yellow-100 items-center">
@@ -1861,7 +1858,7 @@ Naš jelovnik reflektuje bogatstvo lokalnih sastojaka i slobodu kreativne interp
                     <div
                       className="w-60percent p-60 text-center sm:w-full module-content"
                       data-custom-animations="true"
-                      data-ca-options='{"addPerspective": false, "animationTarget": ".animation-element, .ld-fancy-heading", "startDelay" : 200, "initValues" :{"x": "-10px", "y": "10px", "opacity" : 0} , "animations" :{"x": "0px", "y": "0px", "opacity" : 1}}'
+                      data-ca-options='{"addPerspective": false, "animationTarget": ".animation-element, .ld-fancy-heading", "startDelay": 200, "initValues": {"x": "-10px", "y": "10px", "opacity": 0}, "animations": {"x": "0px", "y": "0px", "opacity": 1}}'
                     >
                       <div className="ld-fancy-heading border-top border-bottom border-black mb-35">
                         <h3 className="ld-fh-element py-1/5em m-0 text-13 font-medium uppercase tracking-1">
@@ -1870,13 +1867,12 @@ Naš jelovnik reflektuje bogatstvo lokalnih sastojaka i slobodu kreativne interp
                       </div>
                       <div className="ld-fancy-heading">
                         <h2 className="ld-fh-element mb-0/25em">
-                          Imate pitanje ili želite rezervaciju?
+                          Zakažite svoje gastronomsko iskustvo
                         </h2>
                       </div>
                       <div className="ld-fancy-heading px-20percent sm:p-0">
                         <p className="ld-fh-element mb-0/5em text-17 leading-1/5em text-black-40">
-                          Posjetite nas i rezervišite svoje mjesto za doživljaj
-                          ukusa.
+                          Milunka vas čeka – sa stilom i ukusom.
                         </p>
                       </div>
                       <div className="lqd-contact-form lqd-contact-form-inputs-underlined lqd-contact-form-button-block lqd-contact-form-button-md lqd-contact-form-button-border-none lqd-contact-form-inputs-lg mb-30 animation-element">
@@ -1889,8 +1885,7 @@ Naš jelovnik reflektuje bogatstvo lokalnih sastojaka i slobodu kreativne interp
                             />
                           </div>
                           <form
-                            action="#contactmodal"
-                            method="post"
+                            onSubmit={handleSubmit}
                             className="lqd-cf-form"
                             noValidate="novalidate"
                             data-status="init"
@@ -1918,12 +1913,14 @@ Naš jelovnik reflektuje bogatstvo lokalnih sastojaka i slobodu kreativne interp
                                 <input
                                   type="text"
                                   name="name"
-                                  defaultValue=""
+                                  value={formData.name}
+                                  onChange={handleChange}
                                   size={40}
-                                  className="lqd-form-control bg-transparent border-black text-black pl-30"
+                                  className="lqd-form-control bg-transparent border-black text-black pl-55"
                                   aria-required="true"
                                   aria-invalid="false"
                                   placeholder="Ime"
+                                  required
                                 />
                               </span>
                             </div>
@@ -1948,12 +1945,14 @@ Naš jelovnik reflektuje bogatstvo lokalnih sastojaka i slobodu kreativne interp
                                 <input
                                   type="email"
                                   name="email"
-                                  defaultValue=""
+                                  value={formData.email}
+                                  onChange={handleChange}
                                   size={40}
-                                  className="lqd-form-control bg-transparent border-black text-black pl-30"
+                                  className="lqd-form-control bg-transparent border-black text-black pl-55"
                                   aria-required="true"
                                   aria-invalid="false"
                                   placeholder="E-mail"
+                                  required
                                 />
                               </span>
                             </div>
@@ -1982,17 +1981,18 @@ Naš jelovnik reflektuje bogatstvo lokalnih sastojaka i slobodu kreativne interp
                               </svg>
                               <span
                                 className="lqd-form-control-wrap w-full"
-                                data-name="text"
+                                data-name="datetime"
                               >
-                                <input
-                                  type="text"
-                                  name="date"
-                                  defaultValue=""
-                                  size={40}
+                                <DatePicker
+                                  selected={formData.datetime}
+                                  onChange={handleDateChange}
+                                  showTimeSelect
+                                  timeFormat="HH:mm"
+                                  timeIntervals={15}
+                                  dateFormat="dd.MM.yyyy HH:mm"
                                   className="lqd-form-control bg-transparent border-black text-black pl-30"
-                                  aria-required="true"
-                                  aria-invalid="false"
-                                  placeholder="Vaša poruka"
+                                  placeholderText="Datum i vrijeme"
+                                  required
                                 />
                               </span>
                             </div>
@@ -2000,12 +2000,14 @@ Naš jelovnik reflektuje bogatstvo lokalnih sastojaka i slobodu kreativne interp
                               <input
                                 type="submit"
                                 value="Pošaljite"
-                                className="lqd-form-control has-spinner text-white bg-dark rounded-4 mt-20 ont-semibold uppercase leading-1/6em tracking-2 text-11 hover:bg-secondary"
+                                className="lqd-form-control has-spinner text-white bg-dark rounded-4 mt-20 font-semibold uppercase leading-1/6em tracking-2 text-11 hover:bg-secondary"
                               />
                             </p>
+                            {status && (
+                              <p className="text-13 mt-10">{status}</p>
+                            )}
                           </form>
                         </div>
-                        <div className="lqd-cf-response-output" />
                       </div>
                     </div>
                   </div>
@@ -2348,8 +2350,7 @@ Naš jelovnik reflektuje bogatstvo lokalnih sastojaka i slobodu kreativne interp
                     </div>
                     <div className="ld-fancy-heading">
                       <p className="ld-fh-element mb-0/5em text-18">
-                        Popunite vaše podatke i osigurajte svoje mjesto u
-                        Milunki.
+                        Unesite podatke i rezervišite svoj doživljaj.
                       </p>
                     </div>
                     <div className="w-full flex flex-wrap module-info">
