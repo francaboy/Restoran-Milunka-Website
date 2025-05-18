@@ -57,13 +57,13 @@ function Index() {
 
   return (
     <React.Fragment>
-      <>
+      <React.Fragment>
         {" "}
-        <div
+        {/*<div
           className="lqd-preloader-wrap lqd-preloader-dissolve"
           data-preloader-options='{ "animationType":  "scale", "animationTargets":  ".lqd-preloader-dissolve-el", "stagger":  12, "dir":  "y", "duration":  600 }'
         >
-          <div className="lqd-preloader-inner flex flex-col">
+            <div className="lqd-preloader-inner flex flex-col">
             <div className="lqd-preloader-dissolve-el w-full flex-grow-1" />
             <div className="lqd-preloader-dissolve-el w-full flex-grow-1" />
             <div className="lqd-preloader-dissolve-el w-full flex-grow-1" />
@@ -92,7 +92,7 @@ function Index() {
             <div className="lqd-preloader-dissolve-el w-full flex-grow-1" />
             <div className="lqd-preloader-dissolve-el w-full flex-grow-1" />
           </div>
-        </div>
+        </div>*/}
         <div id="wrap">
           <div className="lqd-sticky-placeholder hide hidden h-80" />
           <header
@@ -2631,7 +2631,7 @@ function Index() {
             </button>
           </div>
         </div>
-      </>
+      </React.Fragment>
     </React.Fragment>
   );
 }
