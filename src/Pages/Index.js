@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { useState } from "react";
 import DatePicker from "react-datepicker";
 import emailjs from "@emailjs/browser";
 
@@ -710,6 +710,10 @@ function Index() {
                             chef Saša Stanivuković, čija je misija jasna:
                             vratiti autentičnost ukusu i kuhinji koju pamtimo.
                           </p>
+                          <p className="ld-fh-element pr-10percent mb-1/5em text-16 leading-1/4em">
+                            U srcu Banjaluke, Milunka donosi novu interpretaciju tradicionalnih sastojaka, kreirajući jedinstvena gastronomska iskustva za sve koji cijene dobru hranu, detalje i atmosferu. Naša filozofija je jednostavna – poštujemo namirnicu a trudeći se zadržimo autentičnost . Svaki tanjir je priča, a svaka posjeta prilika da se otkriju novi slojevi ukusa.
+
+                          </p>
                         </div>
                         <a
                           href="#contact-modal"
@@ -751,7 +755,7 @@ function Index() {
                               <img
                                 width={714}
                                 height={798}
-                                src="./assets/images/demo/restaurant/about/1@2x.jpg"
+                                src="./assets/images/demo/restaurant/about/2@2x.jpg"
                                 alt="o nama"
                               />
                             </figure>
@@ -777,7 +781,7 @@ function Index() {
                               <img
                                 width={606}
                                 height={642}
-                                src="./assets/images/demo/restaurant/about/2@2x.jpg"
+                                src="./assets/images/demo/restaurant/about/1@2x.jpg"
                                 alt="o nama"
                               />
                             </figure>
@@ -805,7 +809,7 @@ function Index() {
                     >
                       <div className="ld-fancy-heading w-full text-end sm:text-start animation-element">
                         <h6 className="ld-fh-element m-0">
-                          Dobrodošli u Milunkinu
+                          Novo Doba Starih
                         </h6>
                       </div>
                       <div
@@ -817,7 +821,7 @@ function Index() {
                       >
                         <div className="ld-fancy-heading module-number text-end sm:text-start animation-element">
                           <p className="ld-fh-element m-0 text-86 leading-1em text-secondary">
-                            Kuhinju.
+                            Ukusa.
                           </p>
                         </div>
                       </div>
@@ -826,7 +830,7 @@ function Index() {
                 </div>
               </section>
               {/* End About */}
-              {/* Start Icon Box */}
+              {/* Start Icon Box 
               <section
                 className="lqd-section icon-box border-top border-black-80 transition-all"
                 data-custom-animations="true"
@@ -1017,7 +1021,7 @@ function Index() {
                   </div>
                 </div>
               </section>
-              {/* End Icon Box */}
+               End Icon Box */}
               {/* Start Image BG */}
               <section
                 className="lqd-section image-bg pt-120 pb-140 bg-no-rapeat bg-center bg-cover transition-all"
@@ -1045,25 +1049,15 @@ function Index() {
                       data-ca-options='{"addPerspective": false, "animationTarget": ".btn, .lqd-split-words .lqd-words", "delay" : 70, "initValues" :{"x": "-10px", "y": "10px", "opacity" : 0} , "animations" :{"x": "0px", "y": "0px", "opacity" : 1}}'
                     >
                       <div className="ld-fancy-heading">
-                        <h6
+                        <h4
                           className="ld-fh-element mb-2em lqd-split-words text-white"
                           data-split-text="true"
                           data-split-options='{"type": "words"}'
                         >
-                          {" "}
                           Pogledajte kako živimo gastronomiju.
-                        </h6>
+                        </h4>
                       </div>
-                      <div className="ld-fancy-heading">
-                        <h2
-                          className="ld-fh-element mb-0/5em lqd-split-words text-68 leading-1em text-white"
-                          data-split-text="true"
-                          data-split-options='{"type": "words"}'
-                        >
-                          {" "}
-                          Upoznajte Milunku.
-                        </h2>
-                      </div>
+                      
                       <a
                         href="https://www.youtube.com/watch?v=-FVgpu8p4BE"
                         className="btn btn-solid btn-hover-txt-switch-change btn-hover-txt-switch btn-hover-txt-switch-y bg-orange-100 rounded-4 text-11 font-semibold uppercase leading-1/6em tracking-2 text-black module-btn-px hover:bg-secondary hover:text-white"
@@ -1072,11 +1066,11 @@ function Index() {
                       >
                         <span
                           className="btn-txt"
-                          data-text="Video"
+                          data-text="Ukuse"
                           data-split-text="true"
                           data-split-options='{"type": "chars, words"}'
                         >
-                          Pogledajte
+                          Otkrijte
                         </span>
                       </a>
                     </div>
@@ -1582,7 +1576,7 @@ function Index() {
                     >
                       <div className="ld-fancy-heading">
                         <h6 className="ld-fh-element mb-1/25em text-12 tracking-2 text-white">
-                          Milunka | Ukus s potpisom
+                          Restoran Milunka | Ukus s potpisom
                         </h6>
                       </div>
                       <div className="ld-fancy-heading">
