@@ -5,52 +5,62 @@ import emailjs from "@emailjs/browser";
 import "react-datepicker/dist/react-datepicker.css"; // CSS za kalendar
 
 function Index() {
-  // Stanje za formu
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    phone: "",
+    people: "",
+    
     datetime: null,
   });
+
   const [status, setStatus] = useState("");
 
-  // Obrada promjene unosa
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  // Obrada promjene datuma i vremena
   const handleDateChange = (date) => {
     setFormData((prev) => ({ ...prev, datetime: date }));
   };
 
-  // Slanje forme putem EmailJS-a
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form submitted", formData);
     setStatus("Slanje...");
 
     const templateParams = {
-      name: formData.name,
-      email: formData.email,
-      datetime: formData.datetime ? formData.datetime.toLocaleString() : "",
-    };
+  name: formData.name,
+  email: formData.email,
+  phone: formData.phone,
+  people: formData.people,
+  
+  datetime: formData.datetime ? formData.datetime.toLocaleString() : "",
+};
+
 
     emailjs
       .send(
-        "service_d04ss99", // Zamijenite s vašim Service ID-om
-        "template_6kmb0df", // Zamijenite s vašim Template ID-om
+        "service_d04ss99", // Tvoj Service ID
+        "template_6kmb0df", // Tvoj Template ID
         templateParams,
-        "XvKjasZ6LpGAX2an6" // Zamijenite s vašim Public Key-om
+        "XvKjasZ6LpGAX2an6" // Tvoj Public Key
       )
       .then(
-        (response) => {
+        () => {
           setStatus("Rezervacija poslana uspješno!");
-          setFormData({ name: "", email: "", datetime: null }); // Reset forme
+          setFormData({
+            name: "",
+            email: "",
+            phone: "",
+            people: "",
+            
+            datetime: null,
+          });
         },
         (error) => {
-          setStatus("Greška pri slanju. Pokušajte ponovo.");
           console.error("EmailJS error:", error);
+          setStatus("Greška pri slanju. Pokušajte ponovo.");
         }
       );
   };
@@ -831,7 +841,90 @@ function Index() {
                 </div>
               </section>
               {/* End About */}
-              
+              {/* Start Experience */}
+              <section className="lqd-section experience py-110">
+                <div className="container flex flex-wrap mx-auto p-0">
+                  <div
+                    className="w-40percent flex sm:w-full"
+                    data-custom-animations="true"
+                    data-ca-options='{"addPerspective": false, "animationTarget": ".animation-element", "duration" : 1500, "initValues" :{"x": "-10px", "scaleX" : 0.8, "scaleY" : 0.8, "opacity" : 0} , "animations" :{"x": "0px", "scaleX" : 1, "scaleY" : 1, "opacity" : 1}}'
+                  >
+                    <div className="swiper-container w-full relative flex items-center justify-center bg-yellow-100 transition-all py-35 pr-25 pl-35 rounded-10 rounded-right-0">
+                      <div className="w-full relative flex items-center justify-center module-img">
+                        <div className="w-full h-full absolute rounded-10 z-0 top-0 left-0">
+                          <div className="w-full h-full relative z-1">
+                            <div className="carousel-container carousel-dots-mobile-inside carousel-dots-mobile-center">
+                              <div
+                                className="carousel-items"
+                                data-lqd-flickity='{"fade": true, "cellAlign": "center", "autoPlay" :true, "prevNextButtons": false, "pageDots": false, "groupCells": false, "wrapAround" :true, "pauseAutoPlayOnHover": false}'
+                              >
+                                <div className="carousel-item w-full">
+                                  <img
+                                    className="h-full objfit-cover"
+                                    src="./assets/images/demo/restaurant/experience/5@2x-1.jpg"
+                                    alt="milunka"
+                                  />
+                                </div>
+                                <div className="carousel-item w-full">
+                                  <img
+                                    className="h-full objfit-cover"
+                                    src="./assets/images/demo/restaurant/experience/6@2x-1.jpg"
+                                    alt="milunka"
+                                  />
+                                </div>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="w-60percent flex sm:w-full"
+                    data-custom-animations="true"
+                    data-ca-options='{"addPerspective": false, "animationTarget": ".ld-fancy-heading", "startDelay" : 100, "delay" : 70, "initValues" :{"x": "-10px", "y": "10px", "opacity" : 0} , "animations" :{"x": "0px", "y": "0px", "opacity" : 1}}'
+                  >
+                    <div className="w-full flex flex-wrap items-center justify-center bg-yellow-100 transition-all py-65 pr-65 pl-40 rounded-10 rounded-left-0 module-content">
+                      <div className="w-full mb-40 border-top border-bottom border-black">
+                        <div className="ld-fancy-heading text-center">
+                          <h3 className="ld-fh-element m-0 text-13 font-semibold uppercase tracking-1 py-1/5em">
+                            Šefov potpis.
+                          </h3>
+                        </div>
+                      </div>
+                      <div className="w-50percent flex flex-col pr-45 sm:w-full module-col-first">
+                        <div className="ld-fancy-heading">
+                          <h3 className="ld-fh-element mb-1/35em text-14 uppercase font-semibold tracking-0/5 text-green-700">
+                            Šef Saša – Srce naše kuhinje
+                          </h3>
+                        </div>
+                        <div className="ld-fancy-heading">
+                          <p className="ld-fh-element mb-4em text-16 leading-1/25em">
+                            Kad god tanjir iz naše kuhinje stigne pred vas, znajte da iza njega stoji šef Saša. Od predjela do glavnog jela, on je taj koji vodi glavnu riječ – u začinima, tehnikama, mirisima i balansu. Iskusan, predan i nepokolebljivo posvećen svakom detalju, Saša ne priznaje prosječnost. Njegova filozofija je jasna: samo ono što bi poslužio svojoj porodici može izaći iz kuhinje Milunke. Svako jelo nosi njegov potpis – autentično, domaće i iskreno.
+                          </p>
+                        </div>
+                      
+                      </div>
+                      <div className="w-50percent flex flex-col pr-45 pl-35 sm:w-full module-col-last">
+                        <div className="ld-fancy-heading">
+                          <h3 className="ld-fh-element mb-1/35em text-14 uppercase font-semibold tracking-0/5 text-green-700">
+                          Šef Stefan – Slatka strana
+                          </h3>
+                        </div>
+                        <div className="ld-fancy-heading">
+                          <p className="ld-fh-element mb-4em text-16 leading-1/25em">
+                            Kad dođe vrijeme za desert, šef Stefan preuzima pozornicu. Njegov teren su šećer, čokolada i zlatne kore koje pucaju pod viljuškom. Svaka poslastica iz njegovih ruku priča priču – bilo da se radi o modernoj varijaciji klasične torte ili o receptu prenesenom s bakinog stola. Stefan ne pravi deserte samo da budu slatki – on ih stvara da budu nezaboravni.
+                          </p>
+                        </div>
+                        
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              {/* End Experience */}
               {/* Start Image BG */}
               <section
                 className="lqd-section image-bg pt-120 pb-140 bg-no-rapeat bg-center bg-cover transition-all"
@@ -2500,126 +2593,82 @@ function Index() {
                           aria-atomic="true"
                         />
                       </div>
-                      <form
-                        onSubmit={handleSubmit}
-                        className="lqd-cf-form"
-                        noValidate="novalidate"
-                      >
-                        <div className="w-full relative flex">
-                          <svg
-                            className="left-0"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="14.875"
-                            height={17}
-                            viewBox="0 0 14.875 17"
-                          >
-                            <path
-                              id="Path-1"
-                              data-name="Path 34205"
-                              d="M10.412-4.781c-.953,0-1.411.531-2.975.531s-2.019-.531-2.975-.531A4.464,4.464,0,0,0,0-.319v.85A1.594,1.594,0,0,0,1.594,2.125H13.281A1.594,1.594,0,0,0,14.875.531v-.85A4.464,4.464,0,0,0,10.412-4.781ZM13.281.531H1.594v-.85A2.874,2.874,0,0,1,4.463-3.187a13,13,0,0,0,2.975.531,12.874,12.874,0,0,0,2.975-.531A2.874,2.874,0,0,1,13.281-.319ZM7.437-5.312a4.782,4.782,0,0,0,4.781-4.781,4.782,4.782,0,0,0-4.781-4.781,4.782,4.782,0,0,0-4.781,4.781A4.782,4.782,0,0,0,7.437-5.312Zm0-7.969a3.193,3.193,0,0,1,3.187,3.187A3.193,3.193,0,0,1,7.437-6.906,3.193,3.193,0,0,1,4.25-10.094,3.193,3.193,0,0,1,7.437-13.281Z"
-                              transform="translate(0 14.875)"
-                              fill="#212121"
-                            />
-                          </svg>
-                          <span
-                            className="lqd-form-control-wrap"
-                            data-name="name"
-                          >
-                            <input
-                              type="text"
-                              name="name"
-                              value={formData.name}
-                              onChange={handleChange}
-                              size={40}
-                              className="lqd-cf-form-control pl-30 text-13 text-black bg-transparent border-black-10"
-                              aria-required="true"
-                              aria-invalid="false"
-                              placeholder="Ime"
-                              required
-                            />
-                          </span>
-                        </div>
-                        <div className="w-full relative flex">
-                          <svg
-                            className="left-0"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="20.305"
-                            height="15.94"
-                            viewBox="0 0 20.305 15.94"
-                          >
-                            <path
-                              d="M16.075,1H4.23C1.9,1,0,2.623,0,4.623v8.694c0,2,1.9,3.62,4.23,3.623H16.075c2.335,0,4.227-1.623,4.23-3.623V4.623c0-2-1.9-3.62-4.23-3.623ZM4.23,2.449H16.075a2.566,2.566,0,0,1,2.352,1.367L11.948,9.365a2.855,2.855,0,0,1-3.591,0L1.878,3.816A2.566,2.566,0,0,1,4.23,2.449ZM16.075,15.491H4.23a2.377,2.377,0,0,1-2.538-2.174V5.709l5.469,4.68a4.754,4.754,0,0,0,5.983,0l5.469-4.68v7.608A2.377,2.377,0,0,1,16.075,15.491Z"
-                              transform="translate(0 -1)"
-                              fill="#212121"
-                            />
-                          </svg>
-                          <span
-                            className="lqd-form-control-wrap"
-                            data-name="email"
-                          >
-                            <input
-                              type="email"
-                              name="email"
-                              value={formData.email}
-                              onChange={handleChange}
-                              size={40}
-                              className="lqd-cf-form-control pl-30 text-13 text-black bg-transparent border-black-10"
-                              aria-required="true"
-                              aria-invalid="false"
-                              placeholder="E-mail"
-                              required
-                            />
-                          </span>
-                        </div>
-                        <div className="w-full relative flex">
-                          <svg
-                            className="left-0"
-                            id="Time-1"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="18.875"
-                            height="18.875"
-                            viewBox="0 0 18.875 18.875"
-                          >
-                            <path
-                              id="Path_34182"
-                              data-name="Path 34182"
-                              d="M9.438,0a9.438,9.438,0,1,0,9.438,9.438A9.438,9.438,0,0,0,9.438,0Zm0,17.3A7.865,7.865,0,1,1,17.3,9.438,7.865,7.865,0,0,1,9.438,17.3Z"
-                              fill="#212121"
-                            />
-                            <path
-                              id="Path_34183"
-                              data-name="Path 34183"
-                              d="M10.966,6a.786.786,0,0,0-.786.786v3.4L7.528,11.849a.788.788,0,1,0,.835,1.337l3.02-1.888a.786.786,0,0,0,.369-.675V6.786A.786.786,0,0,0,10.966,6Z"
-                              transform="translate(-1.528 -1.281)"
-                              fill="#212121"
-                            />
-                          </svg>
-                          <span
-                            className="lqd-form-control-wrap"
-                            data-name="datetime"
-                          >
-                            <DatePicker
-                              selected={formData.datetime}
-                              onChange={handleDateChange}
-                              showTimeSelect
-                              timeFormat="HH:mm"
-                              timeIntervals={15}
-                              dateFormat="dd.MM.yyyy HH:mm"
-                              className="lqd-cf-form-control pl-30 text-13 text-black bg-transparent border-black-10"
-                              placeholderText="Datum i vrijeme"
-                              required
-                            />
-                          </span>
-                        </div>
-                        <p>
-                          <input
-                            type="submit"
-                            value="Rezervišite"
-                            className="lqd-cf-form-control has-spinner mb-30 text-11 font-semibold uppercase leading-1/6em tracking-2 rounded-4 text-black bg-yellow-200 border-none hover:bg-black hover:text-white"
-                          />
-                        </p>
-                        {status && <p className="text-13">{status}</p>}
-                      </form>
+                     <form onSubmit={handleSubmit} className="lqd-cf-form" noValidate>
+      <div className="w-full relative flex">
+        <input
+          type="text"
+          name="name"
+          value={formData.name}
+          onChange={handleChange}
+          className="lqd-cf-form-control pl-30 text-13 text-black bg-transparent border-black-10"
+          placeholder="Ime"
+          required
+        />
+      </div>
+
+      <div className="w-full relative flex">
+        <input
+          type="email"
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
+          className="lqd-cf-form-control pl-30 text-13 text-black bg-transparent border-black-10"
+          placeholder="E-mail"
+          required
+        />
+      </div>
+
+      <div className="w-full relative flex">
+        <input
+          type="tel"
+          name="phone"
+          value={formData.phone}
+          onChange={handleChange}
+          className="lqd-cf-form-control pl-30 text-13 text-black bg-transparent border-black-10"
+          placeholder="Broj telefona"
+          required
+        />
+      </div>
+
+      <div className="w-full relative flex">
+        <input
+          type="number"
+          name="people"
+          value={formData.people}
+          onChange={handleChange}
+          className="lqd-cf-form-control pl-30 text-13 text-black bg-transparent border-black-10"
+          placeholder="Broj osoba"
+          required
+        />
+      </div>
+
+
+
+
+      <div className="w-full relative flex">
+        <DatePicker
+          selected={formData.datetime}
+          onChange={handleDateChange}
+          showTimeSelect
+          timeFormat="HH:mm"
+          timeIntervals={15}
+          dateFormat="dd.MM.yyyy HH:mm"
+          className="lqd-cf-form-control pl-30 text-13 text-black bg-transparent border-black-10"
+          placeholderText="Datum i vrijeme"
+          required
+        />
+      </div>
+
+      <p>
+        <input
+          type="submit"
+          value="Rezervišite"
+          className="lqd-cf-form-control has-spinner mb-30 text-11 font-semibold uppercase leading-1/6em tracking-2 rounded-4 text-black bg-yellow-200 border-none hover:bg-black hover:text-white"
+        />
+      </p>
+
+      {status && <p className="text-13">{status}</p>}
+    </form>
                     </div>
                   </div>
                 </div>

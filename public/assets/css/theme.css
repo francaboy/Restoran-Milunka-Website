@@ -118,7 +118,7 @@
 	--lqd-row-gutter-y: 0;
 
 	/* Typography */
-	--lqd-body-font-family: 'Rubik', sans-serif;
+	--lqd-body-font-family: 'Marcellus', sans-serif;
 	--lqd-body-font-size: 18px;
 	--lqd-body-line-height: 1.7;
 	--lqd-body-font-weight: 400;
@@ -144,7 +144,7 @@
 	--lqd-heading-letter-spacing: ;
 	--lqd-heading-color: #181b31;
 
-	/* --lqd-h1-font-family: var(--lqd-heading-font-family);
+	 --lqd-h1-font-family: var(--lqd-heading-font-family);
 	--lqd-h1-line-height: var(--lqd-heading-line-height);
 	--lqd-h1-font-weight: var(--lqd-heading-font-weight);
 	--lqd-h1-text-transform: var(--lqd-heading-text-transform);
@@ -184,7 +184,7 @@
 	--lqd-h6-font-weight: var(--lqd-heading-font-weight);
 	--lqd-h6-text-transform: var(--lqd-heading-text-transform);
 	--lqd-h6-letter-spacing: var(--lqd-heading-letter-spacing);
-	--lqd-h6-color: var(--lqd-heading-color); */
+	--lqd-h6-color: var(--lqd-heading-color); 
 
 	/* Sticky header */
 	--lqd-sticky-header-height: 0px;
