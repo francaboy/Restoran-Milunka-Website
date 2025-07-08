@@ -2164,19 +2164,38 @@ function Index() {
                                 />
                               </span>
                             </div>
-                            <div className="w-full relative flex">
-  <select
-    name="smoking"
-    value={formData.smoking}
-    onChange={handleChange}
-    className="lqd-cf-form-control pl-30 text-13 text-black bg-transparent border-black-10"
-    required
-  >
-    <option value="">Odaberite dio restorana</option>
-    <option value="Pušački">Pušački dio</option>
-    <option value="Nepušački">Nepušački dio</option>
-  </select>
+                           <div className="w-full relative flex items-center">
+  {/* Ikonica cigarete */}
+ <svg
+  className="absolute left-0 "
+  xmlns="http://www.w3.org/2000/svg"
+  width="23"
+  height="23"
+  viewBox="0 0 24 24"
+  fill="#212121"
+>
+  <circle cx="12" cy="12" r="11" stroke="#212121" strokeWidth="2" fill="none" />
+  <path d="M9 12V7h6v5" stroke="#212121" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+  <path d="M7 12h10v2H7z" fill="#212121" />
+  <path d="M8 14v4M16 14v4" stroke="#212121" strokeWidth="2" strokeLinecap="round" />
+</svg>
+
+
+  <span className="lqd-form-control-wrap w-full" data-name="smoking">
+    <select
+      name="smoking"
+      value={formData.smoking}
+      onChange={handleChange}
+      className="lqd-form-control bg-transparent border-black text-black pl-40"
+      required
+    >
+      <option value="">Odaberite dio restorana</option>
+      <option value="Pušački">Pušački dio</option>
+      <option value="Nepušački">Nepušački dio</option>
+    </select>
+  </span>
 </div>
+
                             <p>
                               <input
                                 type="submit"
