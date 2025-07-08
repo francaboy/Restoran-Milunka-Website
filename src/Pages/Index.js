@@ -10,7 +10,7 @@ function Index() {
     email: "",
     phone: "",
     people: "",
-    
+    smoking: "",
     datetime: null,
   });
 
@@ -34,7 +34,7 @@ function Index() {
   email: formData.email,
   phone: formData.phone,
   people: formData.people,
-  
+  smoking: formData.smoking,
   datetime: formData.datetime ? formData.datetime.toLocaleString() : "",
 };
 
@@ -54,8 +54,8 @@ function Index() {
             email: "",
             phone: "",
             people: "",
-            
             datetime: null,
+             smoking: "",
           });
         },
         (error) => {
@@ -925,62 +925,38 @@ function Index() {
                 </div>
               </section>
               {/* End Experience */}
-              {/* Start Image BG */}
-              <section
-                className="lqd-section image-bg pt-120 pb-140 bg-no-rapeat bg-center bg-cover transition-all"
-                style={{
-                  backgroundImage:
-                    "url(./assets/images/demo/restaurant/image-bg/bg-22.jpg)",
-                }}
-              >
-                <div
-                  className="background-overlay w-full h-full absolute top-0 left-0 bg-transparent opacity-100 transition-all"
-                  style={{
-                    backgroundImage:
-                      "linear-gradient(0deg, #0E0B07 0%, #0E0B0700 82%)",
-                  }}
-                />
-                <div className="container">
-                  <div className="row justify-center">
-                    <div
-                      className="col col-12 col-md-10 col-lg-8 text-center"
-                      data-parallax="true"
-                      data-parallax-options='{"ease": "linear", "start": "top top", "end": "bottom+=0% top"}'
-                      data-parallax-from='{"transformPerspective": "px", "y": "0px", "opacity" : 1}'
-                      data-parallax-to='{"y": "-40%", "opacity" : 0}'
-                      data-custom-animations="true"
-                      data-ca-options='{"addPerspective": false, "animationTarget": ".btn, .lqd-split-words .lqd-words", "delay" : 70, "initValues" :{"x": "-10px", "y": "10px", "opacity" : 0} , "animations" :{"x": "0px", "y": "0px", "opacity" : 1}}'
-                    >
-                      <div className="ld-fancy-heading">
-                        <h4
-                          className="ld-fh-element mb-2em lqd-split-words text-white"
-                          data-split-text="true"
-                          data-split-options='{"type": "words"}'
-                        >
-                          Pogledajte kako živimo gastronomiju.
-                        </h4>
-                      </div>
-                      
-                      <a
-                        href="https://www.youtube.com/watch?v=-FVgpu8p4BE"
-                        className="btn btn-solid btn-hover-txt-switch-change btn-hover-txt-switch btn-hover-txt-switch-y bg-orange-100 rounded-4 text-11 font-semibold uppercase leading-1/6em tracking-2 text-black module-btn-px hover:bg-secondary hover:text-white"
-                        data-fresco-group="gallery"
-                        aria-label="milunka"
-                      >
-                        <span
-                          className="btn-txt"
-                          data-text="Ukuse"
-                          data-split-text="true"
-                          data-split-options='{"type": "chars, words"}'
-                        >
-                          Otkrijte
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </section>
-              {/* End Image BG */}
+              {/* Start 3D Tour Section */}
+<section className="lqd-section pt-120 pb-140 bg-white flex items-center justify-center">
+  <div className="container text-center">
+    <div className="row justify-center">
+      <div className="col col-12 col-md-10">
+        <h4 className="text-black text-2xl font-semibold mb-6">
+          3D Tour Restorana
+        </h4>
+        <div className="w-full" style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
+          <iframe
+            src="https://my.matterport.com/show/?m=3bLAgWzXfcc"
+            frameBorder="0"
+            allow="autoplay; fullscreen; web-share; xr-spatial-tracking"
+            allowFullScreen
+            title="3D Tour Restorana"
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: '100%',
+              height: '100%',
+              borderRadius: '12px',
+              boxShadow: '0 0 30px rgba(0,0,0,0.2)',
+            }}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{/* End 3D Tour Section */}
+
               {/* Start Experience */}
               <section className="lqd-section experience py-110">
                 <div className="container flex flex-wrap mx-auto p-0">
@@ -2188,6 +2164,19 @@ function Index() {
                                 />
                               </span>
                             </div>
+                            <div className="w-full relative flex">
+  <select
+    name="smoking"
+    value={formData.smoking}
+    onChange={handleChange}
+    className="lqd-cf-form-control pl-30 text-13 text-black bg-transparent border-black-10"
+    required
+  >
+    <option value="">Odaberite dio restorana</option>
+    <option value="Pušački">Pušački dio</option>
+    <option value="Nepušački">Nepušački dio</option>
+  </select>
+</div>
                             <p>
                               <input
                                 type="submit"
@@ -2658,7 +2647,19 @@ function Index() {
           required
         />
       </div>
-
+         <div className="w-full relative flex">
+  <select
+    name="smoking"
+    value={formData.smoking}
+    onChange={handleChange}
+    className="lqd-cf-form-control pl-30 text-13 text-black bg-transparent border-black-10"
+    required
+  >
+    <option value="">Odaberite dio restorana</option>
+    <option value="Pušački">Pušački dio</option>
+    <option value="Nepušački">Nepušački dio</option>
+  </select>
+</div>                  
       <p>
         <input
           type="submit"
