@@ -2666,19 +2666,36 @@ function Index() {
           required
         />
       </div>
-         <div className="w-full relative flex">
-  <select
-    name="smoking"
-    value={formData.smoking}
-    onChange={handleChange}
-    className="lqd-cf-form-control pl-30 text-13 text-black bg-transparent border-black-10"
-    required
-  >
-    <option value="">Odaberite dio restorana</option>
-    <option value="Pušački">Pušački dio</option>
-    <option value="Nepušački">Nepušački dio</option>
-  </select>
-</div>                  
+    
+       <div className="w-full relative flex flex-col gap-3 z-50 mt-4 pl-30 mt-10">
+  <label className="text-black text-13">Dio restorana</label>
+  <div className="flex gap-4 mt-10 mb-10">
+    <label className="flex items-center gap-2 cursor-pointer">
+      <input
+        type="radio"
+        name="smoking"
+        value="Pušački"
+        checked={formData.smoking === "Pušački"}
+        onChange={handleChange}
+        className="accent-yellow-400"
+        required
+      />
+      <span className="text-black text-13">Pušački</span>
+    </label>
+    <label className="flex items-center gap-2 cursor-pointer">
+      <input
+        type="radio"
+        name="smoking"
+        value="Nepušački"
+        checked={formData.smoking === "Nepušački"}
+        onChange={handleChange}
+        className="accent-yellow-400"
+        required
+      />
+      <span className="text-black text-13">Nepušački</span>
+    </label>
+  </div>
+</div>     
       <p>
         <input
           type="submit"
