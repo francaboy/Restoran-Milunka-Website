@@ -1030,7 +1030,7 @@ function Index() {
                         </div>
                         <div className="ld-fancy-heading">
                           <p className="ld-fh-element mb-4em text-16 leading-1/25em">
-                            Carpaccio, Ravioli, Obrazi, Desert Natalija.
+                            Carpaccio Biftek, Ravioli, Rep Milunka, Desert Natalija.
                           </p>
                         </div>
                        
@@ -1138,57 +1138,7 @@ function Index() {
         data-ca-options='{"addPerspective": false, "animationTarget": "li, p", "delay": 120, "initValues": {"x": "-10px", "y": "10px", "opacity": 0}, "animations": {"x": "0px", "y": "0px", "opacity": 1}}'
       >
         <div className="w-full flex flex-wrap border-right border-black-20 p-60 sm:border-right-0 sm:border-bottom module-col">
-          <div className="w-75percent flex justify-start p-10">
-            <ul className="icon-list-items reset-ul flex">
-              <li className="icon-list-item flex items-center">
-                <span className="icon-list-icon flex">
-                  <svg className="w-5 h-5 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#000">
-                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
-                  </svg>
-                </span>
-                <span className="icon-list-icon text-17 pl-5">Benedikt jaja</span>
-              </li>
-            </ul>
-          </div>
-          <div className="w-25percent flex justify-end p-10">
-            <div className="ld-fancy-heading text-end">
-              <p className="ld-fh-element m-0">13KM</p>
-            </div>
-          </div>
-          <div className="w-75percent flex justify-start p-10">
-            <ul className="icon-list-items reset-ul flex">
-              <li className="icon-list-item flex items-center">
-                <span className="icon-list-icon flex">
-                  <svg className="w-5 h-5 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#000">
-                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
-                  </svg>
-                </span>
-                <span className="icon-list-icon text-17 pl-5">Tortilja</span>
-              </li>
-            </ul>
-          </div>
-          <div className="w-25percent flex justify-end p-10">
-            <div className="ld-fancy-heading text-end">
-              <p className="ld-fh-element m-0">16KM</p>
-            </div>
-          </div>
-          <div className="w-75percent flex justify-start p-10">
-            <ul className="icon-list-items reset-ul flex">
-              <li className="icon-list-item flex items-center">
-                <span className="icon-list-icon flex">
-                  <svg className="w-5 h-5 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#000">
-                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
-                  </svg>
-                </span>
-                <span className="icon-list-icon text-17 pl-5">Doručak Milunka</span>
-              </li>
-            </ul>
-          </div>
-          <div className="w-25percent flex justify-end p-10">
-            <div className="ld-fancy-heading text-end">
-              <p className="ld-fh-element m-0">20KM</p>
-            </div>
-          </div>
+          
         </div>
       </div>
      
@@ -1212,7 +1162,7 @@ function Index() {
           </div>
           <div className="w-25percent flex justify-end p-10">
             <div className="ld-fancy-heading text-end">
-              <p className="ld-fh-element m-0">28KM</p>
+              <p className="ld-fh-element m-0">29KM</p>
             </div>
           </div>
           <div className="w-75percent flex justify-start p-10">
@@ -1229,7 +1179,7 @@ function Index() {
           </div>
           <div className="w-25percent flex justify-end p-10">
             <div className="ld-fancy-heading text-end">
-              <p className="ld-fh-element m-0">25KM</p>
+              <p className="ld-fh-element m-0">26KM</p>
             </div>
           </div>
           <div className="w-75percent flex justify-start p-10">
@@ -1240,13 +1190,13 @@ function Index() {
                     <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
                   </svg>
                 </span>
-                <span className="icon-list-icon text-17 pl-5">Carpaccio od ribe</span>
+                <span className="icon-list-icon text-17 pl-5">Škampi</span>
               </li>
             </ul>
           </div>
           <div className="w-25percent flex justify-end p-10">
             <div className="ld-fancy-heading text-end">
-              <p className="ld-fh-element m-0">22KM</p>
+              <p className="ld-fh-element m-0">26KM</p>
             </div>
           </div>
           <div className="w-75percent flex justify-start p-10">
@@ -1283,13 +1233,30 @@ function Index() {
                     <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
                   </svg>
                 </span>
-                <span className="icon-list-icon text-17 pl-5">Krem potaž od kukuruza</span>
+                <span className="icon-list-icon text-17 pl-5">Supa od gljiva</span>
               </li>
             </ul>
           </div>
           <div className="w-25percent flex justify-end p-10">
             <div className="ld-fancy-heading text-end">
-              <p className="ld-fh-element m-0">6KM</p>
+              <p className="ld-fh-element m-0">11KM</p>
+            </div>
+          </div>
+          <div className="w-75percent flex justify-start p-10">
+            <ul className="icon-list-items reset-ul flex">
+              <li className="icon-list-item flex items-center">
+                <span className="icon-list-icon flex">
+                  <svg className="w-5 h-5 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#000">
+                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
+                  </svg>
+                </span>
+                <span className="icon-list-icon text-17 pl-5">Krem potaž od bundeve</span>
+              </li>
+            </ul>
+          </div>
+          <div className="w-25percent flex justify-end p-10">
+            <div className="ld-fancy-heading text-end">
+              <p className="ld-fh-element m-0">8KM</p>
             </div>
           </div>
           <div className="w-75percent flex justify-start p-10">
@@ -1329,30 +1296,13 @@ function Index() {
                     <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
                   </svg>
                 </span>
-                <span className="icon-list-icon text-17 pl-5">Tagliatelle</span>
+                <span className="icon-list-icon text-17 pl-5">Pljukanci</span>
               </li>
             </ul>
           </div>
           <div className="w-25percent flex justify-end p-10">
             <div className="ld-fancy-heading text-end">
-              <p className="ld-fh-element m-0">25KM</p>
-            </div>
-          </div>
-          <div className="w-75percent flex justify-start p-10">
-            <ul className="icon-list-items reset-ul flex">
-              <li className="icon-list-item flex items-center">
-                <span className="icon-list-icon flex">
-                  <svg className="w-5 h-5 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#000">
-                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
-                  </svg>
-                </span>
-                <span className="icon-list-icon text-17 pl-5">Ravioli</span>
-              </li>
-            </ul>
-          </div>
-          <div className="w-25percent flex justify-end p-10">
-            <div className="ld-fancy-heading text-end">
-              <p className="ld-fh-element m-0">24KM</p>
+              <p className="ld-fh-element m-0">27KM</p>
             </div>
           </div>
           <div className="w-75percent flex justify-start p-10">
@@ -1372,6 +1322,40 @@ function Index() {
               <p className="ld-fh-element m-0">24KM</p>
             </div>
           </div>
+          <div className="w-75percent flex justify-start p-10">
+            <ul className="icon-list-items reset-ul flex">
+              <li className="icon-list-item flex items-center">
+                <span className="icon-list-icon flex">
+                  <svg className="w-5 h-5 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#000">
+                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
+                  </svg>
+                </span>
+                <span className="icon-list-icon text-17 pl-5">Ravioli</span>
+              </li>
+            </ul>
+          </div>
+          <div className="w-25percent flex justify-end p-10">
+            <div className="ld-fancy-heading text-end">
+              <p className="ld-fh-element m-0">25KM</p>
+            </div>
+          </div>
+          <div className="w-75percent flex justify-start p-10">
+            <ul className="icon-list-items reset-ul flex">
+              <li className="icon-list-item flex items-center">
+                <span className="icon-list-icon flex">
+                  <svg className="w-5 h-5 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#000">
+                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
+                  </svg>
+                </span>
+                <span className="icon-list-icon text-17 pl-5">Tagliatelle</span>
+              </li>
+            </ul>
+          </div>
+          <div className="w-25percent flex justify-end p-10">
+            <div className="ld-fancy-heading text-end">
+              <p className="ld-fh-element m-0">26KM</p>
+            </div>
+          </div>
         </div>
       </div>
     
@@ -1381,23 +1365,6 @@ function Index() {
         data-ca-options='{"addPerspective": false, "animationTarget": "li, p", "startDelay": 250, "delay": 120, "initValues": {"x": "-10px", "y": "10px", "opacity": 0}, "animations": {"x": "0px", "y": "0px", "opacity": 1}}'
       >
         <div className="w-full flex flex-wrap border-right border-black-20 p-60 sm:border-right-0 sm:border-bottom module-col">
-          <div className="w-75percent flex justify-start p-10">
-            <ul className="icon-list-items reset-ul flex">
-              <li className="icon-list-item flex items-center">
-                <span className="icon-list-icon flex">
-                  <svg className="w-5 h-5 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#000">
-                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
-                  </svg>
-                </span>
-                <span className="icon-list-icon text-17 pl-5">Rižoto losos</span>
-              </li>
-            </ul>
-          </div>
-          <div className="w-25percent flex justify-end p-10">
-            <div className="ld-fancy-heading text-end">
-              <p className="ld-fh-element m-0">23KM</p>
-            </div>
-          </div>
           <div className="w-75percent flex justify-start p-10">
             <ul className="icon-list-items reset-ul flex">
               <li className="icon-list-item flex items-center">
@@ -1423,13 +1390,47 @@ function Index() {
                     <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
                   </svg>
                 </span>
-                <span className="icon-list-icon text-17 pl-5">Rižoto povrće</span>
+                <span className="icon-list-icon text-17 pl-5">Rižoto gamberi</span>
               </li>
             </ul>
           </div>
           <div className="w-25percent flex justify-end p-10">
             <div className="ld-fancy-heading text-end">
-              <p className="ld-fh-element m-0">16KM</p>
+              <p className="ld-fh-element m-0">26KM</p>
+            </div>
+          </div>
+          <div className="w-75percent flex justify-start p-10">
+            <ul className="icon-list-items reset-ul flex">
+              <li className="icon-list-item flex items-center">
+                <span className="icon-list-icon flex">
+                  <svg className="w-5 h-5 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#000">
+                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
+                  </svg>
+                </span>
+                <span className="icon-list-icon text-17 pl-5">Rižoto biftek</span>
+              </li>
+            </ul>
+          </div>
+          <div className="w-25percent flex justify-end p-10">
+            <div className="ld-fancy-heading text-end">
+              <p className="ld-fh-element m-0">27KM</p>
+            </div>
+          </div>
+          <div className="w-75percent flex justify-start p-10">
+            <ul className="icon-list-items reset-ul flex">
+              <li className="icon-list-item flex items-center">
+                <span className="icon-list-icon flex">
+                  <svg className="w-5 h-5 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#000">
+                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
+                  </svg>
+                </span>
+                <span className="icon-list-icon text-17 pl-5">Rižoto gljive</span>
+              </li>
+            </ul>
+          </div>
+          <div className="w-25percent flex justify-end p-10">
+            <div className="ld-fancy-heading text-end">
+              <p className="ld-fh-element m-0">23KM</p>
             </div>
           </div>
         </div>
@@ -1449,13 +1450,13 @@ function Index() {
                     <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
                   </svg>
                 </span>
-                <span className="icon-list-icon text-17 pl-5">Biftek Milunka</span>
+                <span className="icon-list-icon text-17 pl-5">Rep Milunka</span>
               </li>
             </ul>
           </div>
           <div className="w-25percent flex justify-end p-10">
             <div className="ld-fancy-heading text-end">
-              <p className="ld-fh-element m-0">55KM</p>
+              <p className="ld-fh-element m-0">39KM</p>
             </div>
           </div>
           <div className="w-75percent flex justify-start p-10">
@@ -1472,7 +1473,7 @@ function Index() {
           </div>
           <div className="w-25percent flex justify-end p-10">
             <div className="ld-fancy-heading text-end">
-              <p className="ld-fh-element m-0">36KM</p>
+              <p className="ld-fh-element m-0">38KM</p>
             </div>
           </div>
           <div className="w-75percent flex justify-start p-10">
@@ -1483,24 +1484,7 @@ function Index() {
                     <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
                   </svg>
                 </span>
-                <span className="icon-list-icon text-17 pl-5">Juneći rep</span>
-              </li>
-            </ul>
-          </div>
-          <div className="w-25percent flex justify-end p-10">
-            <div className="ld-fancy-heading text-end">
-              <p className="ld-fh-element m-0">33KM</p>
-            </div>
-          </div>
-          <div className="w-75percent flex justify-start p-10">
-            <ul className="icon-list-items reset-ul flex">
-              <li className="icon-list-item flex items-center">
-                <span className="icon-list-icon flex">
-                  <svg className="w-5 h-5 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#000">
-                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
-                  </svg>
-                </span>
-                <span className="icon-list-icon text-17 pl-5">Pileći kolač</span>
+                <span className="icon-list-icon text-17 pl-5">Piletina Borja</span>
               </li>
             </ul>
           </div>
@@ -1517,13 +1501,47 @@ function Index() {
                     <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
                   </svg>
                 </span>
-                <span className="icon-list-icon text-17 pl-5">Svinjska bajadera</span>
+                <span className="icon-list-icon text-17 pl-5">Biftek</span>
               </li>
             </ul>
           </div>
           <div className="w-25percent flex justify-end p-10">
             <div className="ld-fancy-heading text-end">
-              <p className="ld-fh-element m-0">36KM</p>
+              <p className="ld-fh-element m-0">55KM</p>
+            </div>
+          </div>
+          <div className="w-75percent flex justify-start p-10">
+            <ul className="icon-list-items reset-ul flex">
+              <li className="icon-list-item flex items-center">
+                <span className="icon-list-icon flex">
+                  <svg className="w-5 h-5 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#000">
+                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
+                  </svg>
+                </span>
+                <span className="icon-list-icon text-17 pl-5">Svinjski vrat</span>
+              </li>
+            </ul>
+          </div>
+          <div className="w-25percent flex justify-end p-10">
+            <div className="ld-fancy-heading text-end">
+              <p className="ld-fh-element m-0">35KM</p>
+            </div>
+          </div>
+          <div className="w-75percent flex justify-start p-10">
+            <ul className="icon-list-items reset-ul flex">
+              <li className="icon-list-item flex items-center">
+                <span className="icon-list-icon flex">
+                  <svg className="w-5 h-5 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#000">
+                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
+                  </svg>
+                </span>
+                <span className="icon-list-icon text-17 pl-5">Ćureća saltimbocca</span>
+              </li>
+            </ul>
+          </div>
+          <div className="w-25percent flex justify-end p-10">
+            <div className="ld-fancy-heading text-end">
+              <p className="ld-fh-element m-0">32KM</p>
             </div>
           </div>
         </div>
@@ -1545,30 +1563,13 @@ function Index() {
                     <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
                   </svg>
                 </span>
-                <span className="icon-list-icon text-17 pl-5">Sabljarka</span>
+                <span className="icon-list-icon text-17 pl-5">Smuđ u kajmaku</span>
               </li>
             </ul>
           </div>
           <div className="w-25percent flex justify-end p-10">
             <div className="ld-fancy-heading text-end">
-              <p className="ld-fh-element m-0">44KM</p>
-            </div>
-          </div>
-          <div className="w-75percent flex justify-start p-10">
-            <ul className="icon-list-items reset-ul flex">
-              <li className="icon-list-item flex items-center">
-                <span className="icon-list-icon flex">
-                  <svg className="w-5 h-5 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#000">
-                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
-                  </svg>
-                </span>
-                <span className="icon-list-icon text-17 pl-5">Tuna</span>
-              </li>
-            </ul>
-          </div>
-          <div className="w-25percent flex justify-end p-10">
-            <div className="ld-fancy-heading text-end">
-              <p className="ld-fh-element m-0">46KM</p>
+              <p className="ld-fh-element m-0">39KM</p>
             </div>
           </div>
           <div className="w-75percent flex justify-start p-10">
@@ -1585,9 +1586,10 @@ function Index() {
           </div>
           <div className="w-25percent flex justify-end p-10">
             <div className="ld-fancy-heading text-end">
-              <p className="ld-fh-element m-0">39KM</p>
+              <p className="ld-fh-element m-0">37KM</p>
             </div>
           </div>
+          
         </div>
       </div>
      
@@ -1628,7 +1630,7 @@ function Index() {
           </div>
           <div className="w-25percent flex justify-end p-10">
             <div className="ld-fancy-heading text-end">
-              <p className="ld-fh-element m-0">17KM</p>
+              <p className="ld-fh-element m-0">19KM</p>
             </div>
           </div>
           <div className="w-75percent flex justify-start p-10">
@@ -1639,7 +1641,41 @@ function Index() {
                     <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
                   </svg>
                 </span>
-                <span className="icon-list-icon text-17 pl-5">Miks svježih salata</span>
+                <span className="icon-list-icon text-17 pl-5">Miks salata sa kozjim sirom</span>
+              </li>
+            </ul>
+          </div>
+          <div className="w-25percent flex justify-end p-10">
+            <div className="ld-fancy-heading text-end">
+              <p className="ld-fh-element m-0">15KM</p>
+            </div>
+          </div>
+          <div className="w-75percent flex justify-start p-10">
+            <ul className="icon-list-items reset-ul flex">
+              <li className="icon-list-item flex items-center">
+                <span className="icon-list-icon flex">
+                  <svg className="w-5 h-5 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#000">
+                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
+                  </svg>
+                </span>
+                <span className="icon-list-icon text-17 pl-5">Vitaminska salata</span>
+              </li>
+            </ul>
+          </div>
+          <div className="w-25percent flex justify-end p-10">
+            <div className="ld-fancy-heading text-end">
+              <p className="ld-fh-element m-0">11KM</p>
+            </div>
+          </div>
+          <div className="w-75percent flex justify-start p-10">
+            <ul className="icon-list-items reset-ul flex">
+              <li className="icon-list-item flex items-center">
+                <span className="icon-list-icon flex">
+                  <svg className="w-5 h-5 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#000">
+                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
+                  </svg>
+                </span>
+                <span className="icon-list-icon text-17 pl-5">Miks salata</span>
               </li>
             </ul>
           </div>
@@ -1665,64 +1701,64 @@ function Index() {
                     <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
                   </svg>
                 </span>
-                <span className="icon-list-icon text-17 pl-5">Sjećanja</span>
-              </li>
-            </ul>
-          </div>
-          <div className="w-25percent flex justify-end p-10">
-            <div className="ld-fancy-heading text-end">
-              <p className="ld-fh-element m-0">13KM</p>
-            </div>
-          </div>
-          <div className="w-75percent flex justify-start p-10">
-            <ul className="icon-list-items reset-ul flex">
-              <li className="icon-list-item flex items-center">
-                <span className="icon-list-icon flex">
-                  <svg className="w-5 h-5 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#000">
-                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
-                  </svg>
-                </span>
-                <span className="icon-list-icon text-17 pl-5">Anna</span>
-              </li>
-            </ul>
-          </div>
-          <div className="w-25percent flex justify-end p-10">
-            <div className="ld-fancy-heading text-end">
-              <p className="ld-fh-element m-0">9KM</p>
-            </div>
-          </div>
-          <div className="w-75percent flex justify-start p-10">
-            <ul className="icon-list-items reset-ul flex">
-              <li className="icon-list-item flex items-center">
-                <span className="icon-list-icon flex">
-                  <svg className="w-5 h-5 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#000">
-                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
-                  </svg>
-                </span>
-                <span className="icon-list-icon text-17 pl-5">Sofija</span>
-              </li>
-            </ul>
-          </div>
-          <div className="w-25percent flex justify-end p-10">
-            <div className="ld-fancy-heading text-end">
-              <p className="ld-fh-element m-0">9KM</p>
-            </div>
-          </div>
-          <div className="w-75percent flex justify-start p-10">
-            <ul className="icon-list-items reset-ul flex">
-              <li className="icon-list-item flex items-center">
-                <span className="icon-list-icon flex">
-                  <svg className="w-5 h-5 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#000">
-                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
-                  </svg>
-                </span>
-                <span className="icon-list-icon text-17 pl-5">Natalija</span>
+                <span className="icon-list-icon text-17 pl-5">Zdravi zalogaj</span>
               </li>
             </ul>
           </div>
           <div className="w-25percent flex justify-end p-10">
             <div className="ld-fancy-heading text-end">
               <p className="ld-fh-element m-0">7KM</p>
+            </div>
+          </div>
+          <div className="w-75percent flex justify-start p-10">
+            <ul className="icon-list-items reset-ul flex">
+              <li className="icon-list-item flex items-center">
+                <span className="icon-list-icon flex">
+                  <svg className="w-5 h-5 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#000">
+                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
+                  </svg>
+                </span>
+                <span className="icon-list-icon text-17 pl-5">Lenja pita</span>
+              </li>
+            </ul>
+          </div>
+          <div className="w-25percent flex justify-end p-10">
+            <div className="ld-fancy-heading text-end">
+              <p className="ld-fh-element m-0">9KM</p>
+            </div>
+          </div>
+          <div className="w-75percent flex justify-start p-10">
+            <ul className="icon-list-items reset-ul flex">
+              <li className="icon-list-item flex items-center">
+                <span className="icon-list-icon flex">
+                  <svg className="w-5 h-5 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#000">
+                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
+                  </svg>
+                </span>
+                <span className="icon-list-icon text-17 pl-5">Dar iz zemlje</span>
+              </li>
+            </ul>
+          </div>
+          <div className="w-25percent flex justify-end p-10">
+            <div className="ld-fancy-heading text-end">
+              <p className="ld-fh-element m-0">10KM</p>
+            </div>
+          </div>
+          <div className="w-75percent flex justify-start p-10">
+            <ul className="icon-list-items reset-ul flex">
+              <li className="icon-list-item flex items-center">
+                <span className="icon-list-icon flex">
+                  <svg className="w-5 h-5 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#000">
+                    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
+                  </svg>
+                </span>
+                <span className="icon-list-icon text-17 pl-5">Kubanka</span>
+              </li>
+            </ul>
+          </div>
+          <div className="w-25percent flex justify-end p-10">
+            <div className="ld-fancy-heading text-end">
+              <p className="ld-fh-element m-0">8KM</p>
             </div>
           </div>
         </div>
@@ -2266,7 +2302,8 @@ function Index() {
                             RADNO VRIJEME
                           </p>
                           <p className="ld-fh-element mb-4em text-14 uppercase font-semibold">
-                            Ponedeljak-Nedelja: 08.00h - 23.00h
+                            Ponedeljak-Petka: 12.00h - 23.00h
+                            Subota-Nedelja: 10.30h - 23.00h
                           </p>
                         </div>
                         <a
@@ -2410,9 +2447,13 @@ function Index() {
                         Radno Vrijeme:
                         <br />
                         <br />
-                        Ponedeljak - Nedelja:
+                        Ponedeljak - Petka:
                         <br />
-                        8:00h - 23:00h
+                        12:00h - 23:00h
+                        <br />
+                        Subota - Nedelja:
+                        <br />
+                        10:30h - 23:00h
                       </p>
                     </div>
                     <div className="ld-fancy-heading">
